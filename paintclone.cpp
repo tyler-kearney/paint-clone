@@ -144,7 +144,7 @@ gboolian onDrawingAreaDraw(GtkWidget* widget, cairo_t* cr, gpointer data) {
 
         // Get mouse position
         int x, y;
-        gtk_window_get_pointer(gtk_widget_get_window(widget), &x, &y);
+        gdk_window_get_pointer(gtk_widget_get_window(widget), &x, &y);
         cairo_line_to(cr, x, y); // Draw line to current mouse position
 
         cairo_stroke(cr);

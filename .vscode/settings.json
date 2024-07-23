@@ -1,0 +1,11 @@
+{
+    "C_Cpp.default.includePath": [
+        "/opt/homebrew/Cellar/gtk+3/3.24.43/include/gtk-3.0/gtk",
+        "/opt/homebrew/Cellar/gtk+3/3.24.43/include/gtk-3.0",
+        "/opt/homebrew/Cellar/gtk+3/3.24.43/include"
+    ],
+    "C_Cpp.default.enableConfigurationSquiggles": false,
+    "files.associations": {
+        "gtk.h": "c"
+    }
+}
